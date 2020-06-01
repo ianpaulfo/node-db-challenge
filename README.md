@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+a relational databases is a table based structure where a strict schema is required. SQL is the language used to retrieve data from relation databases.
+
 - [ ] Why do tables need a `primary key`?
+
+A primary key is needed in order to established realtionships between multiple tables.
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+A foreign Key
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+By using bridges and joins as well as the foreign key.
 
 ## Minimum Viable Product
 
