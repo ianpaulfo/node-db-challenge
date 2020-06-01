@@ -1,13 +1,26 @@
 
 exports.seed = function(knex) {
   // Deletes ALL existing entries
-  return knex('table_name').del()
+  return knex("projects")
+  .truncate()
     .then(function () {
       // Inserts seed entries
-      return knex('table_name').insert([
-        {id: 1, colName: 'rowValue1'},
-        {id: 2, colName: 'rowValue2'},
-        {id: 3, colName: 'rowValue3'}
+      return knex("projects").insert([
+        {
+          name:"Workout",
+          description: "45 minute workout per day",
+          completed: false
+        },
+        {
+          name: "Writing",
+          description: "1 journal entry a day",
+          completed: false
+        },
+        {
+          name: "Coding",
+          description: "20 hours of coding per week",
+          completed: false
+        }
       ]);
     });
 };
