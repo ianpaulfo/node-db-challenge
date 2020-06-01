@@ -8,7 +8,7 @@ exports.seed = function(knex) {
         { name: "Coding for Dummies", description: "book by Nikhil Abraham" },
         { name: "War of Art", description: "book by Steven Pressfield" },
         { name: "Encyclopedia of modern bodybuilding", description: "book by Arnold Schwarzenegger " },
-        { name: "Pen/Paper", description: "in Sunnyvale" }
+        { name: "Pen/Paper", description: "weapons for war of creation" }
       ]);
     });
 };
